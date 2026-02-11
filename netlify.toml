@@ -2,7 +2,7 @@
 # Static export deployment
 
 [build]
-  # Build command
+  # Build command - postbuild script in package.json auto-decompresses WASM .gz files
   command = "npm run build"
   # Output directory (Next.js static export)
   publish = "out"
